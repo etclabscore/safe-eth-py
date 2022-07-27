@@ -36,6 +36,7 @@ class BlockscoutClient:
         EthereumNetwork.VELAS_MAINNET: "https://evmexplorer.velas.com/",
         EthereumNetwork.REI_MAINNET: "https://scan.rei.network/",
         EthereumNetwork.REI_TESTNET: "https://scan-test.rei.network/",
+        EthereumNetwork.ETC_MORDOR: "https://blockscout.com/etc/mordor/",
     }
 
     def __init__(self, network: EthereumNetwork):
