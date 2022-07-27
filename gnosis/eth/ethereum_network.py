@@ -63,6 +63,7 @@ class EthereumNetwork(Enum):
     PC = 78
     GENECHAIN = 80
     METER = 82
+    METER_TESTNET = 83
     GTTEST_TESTNET = 85
     GT = 86
     TOMO = 88
@@ -135,6 +136,8 @@ class EthereumNetwork(Enum):
     FANTOM_TESTNET = 4002
     IOTEX_IO = 4689
     IOTEX_IO_TESTNET = 4690
+    VENIDIUM_TESTNET = 4918
+    VENIDIUM = 4919
     ESN = 5197
     SYS_TESTNET = 5700
     ONTOLOGY_TESTNET = 5851
@@ -165,6 +168,8 @@ class EthereumNetwork(Enum):
     REI_MAINNET = 47805
     NRG_TESTNET = 49797
     CELO_BAKLAVA = 62320
+    GODWOKEN_TESTNET = 71401
+    GODWOKEN = 71402
     VOLTA = 73799
     AKA = 200625
     ARTIS_SIGMA1 = 246529
@@ -197,6 +202,10 @@ class EthereumNetwork(Enum):
     GATHER_MAINNET = 192837465
     EVMOS_TESTNET = 9000
     EVMOS_MAINNET = 9001
+    ASTAR = 592
+    SHIDEN = 336
+    CRONOS_MAINNET = 25
+    CRONOS_TESTNET = 338
 
     @classmethod
     def _missing_(cls, value):

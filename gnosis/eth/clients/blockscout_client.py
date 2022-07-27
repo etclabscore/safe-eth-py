@@ -37,6 +37,14 @@ class BlockscoutClient:
         EthereumNetwork.REI_MAINNET: "https://scan.rei.network/",
         EthereumNetwork.REI_TESTNET: "https://scan-test.rei.network/",
         EthereumNetwork.ETC_MORDOR: "https://blockscout.com/etc/mordor/",
+        EthereumNetwork.METER: "https://scan.meter.io/",
+        EthereumNetwork.METER_TESTNET: "https://scan-warringstakes.meter.io/",
+        EthereumNetwork.GODWOKEN_TESTNET: "https://v1.betanet.gwscan.com/",
+        EthereumNetwork.GODWOKEN: "https://v1.gwscan.com/",
+        EthereumNetwork.VENIDIUM_TESTNET: "https://evm-testnet.venidiumexplorer.com/",
+        EthereumNetwork.VENIDIUM: "https://evm.venidiumexplorer.com/",
+        EthereumNetwork.KLAY_BAOBAB: "https://baobab.scope.klaytn.com/",
+        EthereumNetwork.KLAY_CYPRESS: "https://scope.klaytn.com/",
     }
 
     def __init__(self, network: EthereumNetwork):
