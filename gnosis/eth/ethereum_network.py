@@ -51,8 +51,6 @@ class EthereumNetwork(Enum):
     ONTOLOGY = 58
     EOS = 59
     GO = 60
-    ETC_CLASSIC = 61
-    ETC_MORDOR = 63
     ELLA = 64
     OKEXCHAIN_TESTNET = 65
     OKEXCHAIN = 66
