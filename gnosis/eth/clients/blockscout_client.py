@@ -36,6 +36,7 @@ class BlockscoutClient:
         EthereumNetwork.VELAS_MAINNET: "https://evmexplorer.velas.com/",
         EthereumNetwork.REI_MAINNET: "https://scan.rei.network/",
         EthereumNetwork.REI_TESTNET: "https://scan-test.rei.network/",
+        EthereumNetwork.ETHEREUM_CLASSIC_MAINNET: "https://blockscout.com/etc/mainnet/",
         EthereumNetwork.ETHEREUM_CLASSIC_TESTNET_MORDOR: "https://blockscout.com/etc/mordor/",
         EthereumNetwork.METER: "https://scan.meter.io/",
         EthereumNetwork.METER_TESTNET: "https://scan-warringstakes.meter.io/",
